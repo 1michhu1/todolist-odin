@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.taskCard {
+    background-color: gray;
+    border:1px solid black;
+    display:flex;
+    /* height:100px; */
+
+}
+
+.checkBoxContainer {
+    align-self:flex-start;
+}

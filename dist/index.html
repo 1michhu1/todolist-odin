@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Todo List Manager</h1>
+
+    <div class="header">
+        <div class="todoListSelect">
+            <h3>Select Todo List</h3>
+            <select>
+            </select>
+        </div>
+
+        <div>
+            <button class="newListBtn">New List</button>
+            <button class="deleteListBtn">Delete List</button>
+        </div>
+
+        <button class="newTaskBtn">New Todo</button>
+    </div>
+    
+    <div class="todoList">
+
+    </div>
+
+    <dialog class="createTaskPrompt">
+        <div>
+            <label>Title</label>
+            <input name="title">
+        </div>
+
+        <div>
+            <label>Description</label>
+            <textarea name="description"></textarea>
+        </div>
+
+        <div>
+            <label>Priority</label>
+            <select name="priority">
+                <option value="low" selected>Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Due Date</label>
+            <input type="datetime-local" name="dueDate">
+        </div>
+
+        <button class="addTaskBtn">Add</button>
+        <button class="cancelTaskBtn">Cancel</button>
+    </dialog>
+    
+</body>
+</html>
